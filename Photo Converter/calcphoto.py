@@ -16,10 +16,10 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 ### Input folder name here
-os.chdir('/content/drive/My Drive/Images')
+os.chdir('/content/drive/My Drive/images')
 
 ### Input image name here
-img = Image.open('example.jpg')
+img = Image.open('shocked.jpg')
 
 # Calculate the new aspect ratio (width:height)
 target_aspect_ratio = 95 / 63
